@@ -676,6 +676,7 @@ abstract class UnitComp implements Healthc, Physicsc, Hitboxc, Statusc, Teamc, I
         if(isFlying() != wasFlying){
             if(wasFlying){
                 if(tile != null){
+                    landed();
                     Fx.unitLand.at(x, y, floor.isLiquid ? 1f : 0.5f, tile.floor().mapColor);
                 }
             }
