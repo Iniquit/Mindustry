@@ -421,6 +421,7 @@ public class UnitTypes{
             speed = 0.4f;
             hitSize = 13f;
 
+            engineOffset = 7.15f;
             mineSpeed = 4f;
             drawShields = false;
 
